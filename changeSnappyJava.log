@@ -1,0 +1,1 @@
+copy new snappy-java : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/ -> changeSnappyJava.log
