@@ -10,7 +10,7 @@ teeCmd="tee -a ${chsjHome}/changeSnappyJava.log"
 echo chsjHome : $chsjHome
 
 echo start changeSnappyJava.sh | $teeCmd
-date >> changeSnappyJava.log
+date >> ${chsjHome}/changeSnappyJava.log
 
 snappyFileArr=($(find $nifiHome/work -name "snappy*"))
 
