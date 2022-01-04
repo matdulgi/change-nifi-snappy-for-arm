@@ -259,3 +259,360 @@ Tue Jan  4 10:53:06 KST 2022
  - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
  - remove : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar 
  - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+start changeSnappyJava.sh
+Tue Jan  4 15:53:31 KST 2022
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar 
+start changeSnappyJava.sh
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar 
+start changeSnappyJava.sh
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.2.jar 
+start changeSnappyJava.sh
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-6-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-lookup-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-record-serialization-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-confluent-platform-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-mongodb-services-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.8.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-parquet-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-solr-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-cassandra-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-2-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-kafka-1-0-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-standard-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-avro-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi/work/nar/extensions/nifi-hive-nar-1.15.0.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar 
+ - remove :  
+start changeSnappyJava.sh
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-avro-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-avro-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-lookup-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-lookup-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-standard-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-standard-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-6-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-6-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-record-serialization-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-record-serialization-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-mongodb-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-mongodb-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-1-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-1-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-confluent-platform-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-confluent-platform-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-solr-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-solr-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hive-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hive-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-site-to-site-reporting-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+start changeSnappyJava.sh
+Wed Jan  5 00:35:22 KST 2022
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-avro-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-avro-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-lookup-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-lookup-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-standard-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-standard-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-6-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-6-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-record-serialization-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-record-serialization-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-mongodb-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-mongodb-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-1-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-1-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-confluent-platform-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-confluent-platform-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-solr-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-solr-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hive-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hive-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+start changeSnappyJava.sh
+Wed Jan  5 00:36:27 KST 2022
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-avro-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-avro-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-avro-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-lookup-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-lookup-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-lookup-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-standard-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-standard-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-standard-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-6-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-6-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-6-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hadoop-libraries-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-record-serialization-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-record-serialization-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-record-serialization-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hbase_1_1_2-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.4.1.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-mongodb-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-mongodb-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-mongodb-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-1-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-1-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-1-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.4.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-services-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-kafka-2-0-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.1.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-confluent-platform-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-confluent-platform-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-confluent-platform-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-solr-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-solr-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-solr-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.7.6.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-cassandra-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hwx-schema-registry-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-elasticsearch-client-service-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.1.1.3.jar 
+ - backup old snappy : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hive-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar -> snappyJava_bkup
+ - copy new snappy-java -> /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hive-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies
+ - remove : /usr/local/nifi-1.15.2/work/nar/extensions/nifi-hive-nar-1.15.2.nar-unpacked/NAR-INF/bundled-dependencies/snappy-java-1.0.5.jar 
